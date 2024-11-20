@@ -9,18 +9,18 @@
 
 Pod::Spec.new do |s|
   s.name         = "TQLClassifyScrollVC"
-  s.version      = "0.1.1"
+  s.version      = "1.0.0"
   s.summary      = "多tab 滚动组件控制器."
   s.homepage     = "https://github.com/TianQiLi/TQLClassifyScrollVC"
   s.license      = "MIT"
   #s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "litianqi" => "871651575@qq.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   s.frameworks   = "Foundation", "UIKit"
 #s.libraries = "bz2", "iconv", "stdc++.6.0.9"
 
-s.source       = { :git => "https://github.com/TianQiLi/TQLClassifyScrollVC.git", :tag => "#{s.version}"}
+s.source       = { :git => "https://github.com/EragonTQ/TQLClassifyScrollVC.git", :tag => "#{s.version}"}
 
   s.source_files  =  "TQLClassifyScrollVC/*.{h,m}"
   s.resources = "TQLClassifyScrollVC/Resources/*.png","TQLClassifyScrollVC/Resources/*.bundle"
