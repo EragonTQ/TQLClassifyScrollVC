@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   #s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "litianqi" => "871651575@qq.com" }
-  s.platform     = :ios, "11.0"
+  s.platform     = :ios, "12.0"
 
   s.frameworks   = "Foundation", "UIKit"
 #s.libraries = "bz2", "iconv", "stdc++.6.0.9"
